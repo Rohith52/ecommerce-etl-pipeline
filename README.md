@@ -145,16 +145,3 @@ Airflow does not run natively on Windows. APScheduler delivers identical schedul
 
 **Why full refresh instead of incremental?**
 The Olist dataset is static. In production with live data, incremental loading would extract only rows newer than the last run timestamp — significantly reducing compute and load time.
-```
-
----
-
-Save with `Ctrl + S` then push to GitHub:
-```
-git add README.md
-```
-```
-git commit -m "add README"
-```
-```
-git push
